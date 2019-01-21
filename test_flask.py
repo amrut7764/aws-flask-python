@@ -3,7 +3,7 @@ import unittest
 import os
 import sys
 sys.path.append(os.path.abspath("../"))
-
+from botocore.exceptions import NoCredentialsError
 
 class TestAWSUnittest(unittest.TestCase):
 
